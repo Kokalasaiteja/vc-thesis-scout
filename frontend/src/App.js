@@ -42,7 +42,7 @@ function App() {
 
   const enrich = async (company) => {
     try {
-      const res = await axios.post(`${API_URL}/enrich`, {
+      const res = await axios.post(`${API_URL}enrich`, {
         website: company.website
       });
       alert(res.data.summary);
