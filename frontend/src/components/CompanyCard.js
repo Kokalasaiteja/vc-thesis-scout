@@ -8,7 +8,7 @@ function CompanyCard({ company, scoreData, saveCompany, enrich }) {
       <p className="description">{company.description}</p>
 
       <p className="score">
-        Score: <span>{scoreData.totalScore}</span>
+        Score: <span>{scoreData.score}</span>
       </p>
 
       <div className="button-group">

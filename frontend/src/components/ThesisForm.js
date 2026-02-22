@@ -1,23 +1,44 @@
 import React from "react";
+import "./ThesisForm.css";
 
 function ThesisForm({ thesis, setThesis, saveSearch }) {
-  return (
-    <div>
-      <h3>Investment Thesis</h3>
-      <input placeholder="Sector"
-        value={thesis.sector}
-        onChange={e => setThesis({...thesis, sector: e.target.value})} />
-      <input placeholder="Stage"
-        value={thesis.stage}
-        onChange={e => setThesis({...thesis, stage: e.target.value})} />
-      <input placeholder="Location"
-        value={thesis.location}
-        onChange={e => setThesis({...thesis, location: e.target.value})} />
-      <input placeholder="Business Model"
-        value={thesis.business_model}
-        onChange={e => setThesis({...thesis, business_model: e.target.value})} />
 
-      <button onClick={saveSearch}>Save Search</button>
+  const handleChange = (e) => {
+    setThesis({
+      ...thesis,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  return (
+    <div className="thesis-form">
+      <input
+        name="sector"
+        placeholder="Sector"
+        value={thesis.sector}
+        onChange={handleChange}
+      />
+      <input
+        name="stage"
+        placeholder="Stage"
+        value={thesis.stage}
+        onChange={handleChange}
+      />
+      <input
+        name="location"
+        placeholder="Location"
+        value={thesis.location}
+        onChange={handleChange}
+      />
+      <input
+        name="business_model"
+        placeholder="Business Model"
+        value={thesis.business_model}
+        onChange={handleChange}
+      />
+      <button className="save-btn" onClick={saveSearch}>
+        Save Search
+      </button>
     </div>
   );
 }
