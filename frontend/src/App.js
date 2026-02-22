@@ -19,7 +19,7 @@ function App() {
   const [saved, setSaved] = useState([]);
 
   useEffect(() => {
-    axios.get(`${API_URL}/companies`)
+    axios.get(`${API_URL}companies`)
       .then(res => setCompanies(res.data))
       .catch(err => console.error(err));
 
