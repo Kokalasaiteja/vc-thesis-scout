@@ -1,15 +1,24 @@
 import React from "react";
+import "./CompanyCard.css";
 
 function CompanyCard({ company, scoreData, saveCompany, enrich }) {
   return (
-    <div style={{border: "1px solid gray", padding: 10, margin: 10}}>
-      <h3>{company.name}</h3>
-      <p>{company.description}</p>
-      <p><b>Score:</b> {scoreData.score}</p>
-      <p>{scoreData.explanation.join(", ")}</p>
+    <div className="company-card">
+      <h2>{company.name}</h2>
+      <p className="description">{company.description}</p>
 
-      <button onClick={() => saveCompany(company)}>Save</button>
-      <button onClick={() => enrich(company)}>Enrich</button>
+      <p className="score">
+        Score: <span>{scoreData.totalScore}</span>
+      </p>
+
+      <div className="button-group">
+        <button className="btn primary" onClick={() => saveCompany(company)}>
+          Save
+        </button>
+        <button className="btn secondary" onClick={() => enrich(company)}>
+          Enrich
+        </button>
+      </div>
     </div>
   );
 }

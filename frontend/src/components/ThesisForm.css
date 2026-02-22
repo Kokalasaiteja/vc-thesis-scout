@@ -1,0 +1,29 @@
+.thesis-form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.thesis-form input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.thesis-form input:focus {
+  border-color: #2563eb;
+}
+
+.save-btn {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #059669;
+}
