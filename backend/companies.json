@@ -7,7 +7,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "AI infrastructure for enterprise automation",
-    "website": "https://example.com"
+    "website": "https://www.neurostack-ai.com"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "location": "India",
     "business_model": "B2B",
     "description": "Digital lending analytics platform",
-    "website": "https://example.com"
+    "website": "https://www.fin-pulse.org"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "location": "USA",
     "business_model": "B2C",
     "description": "Remote patient monitoring platform",
-    "website": "https://example.com"
+    "website": "https://healthorbit.ai"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Cloud cost optimization tool",
-    "website": "https://example.com"
+    "website": "https://www.cloudnexusit.com"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Computer vision tools for retail",
-    "website": "https://example.com"
+    "website": "https://www.ankercloud.com/solutions/visionforge"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "location": "India",
     "business_model": "B2C",
     "description": "Gamified learning app",
-    "website": "https://example.com"
+    "website": "https://eduspark.in"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "location": "India",
     "business_model": "B2B",
     "description": "Precision farming analytics",
-    "website": "https://example.com"
+    "website": "https://agro-next.com"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "location": "Singapore",
     "business_model": "B2B",
     "description": "Cross-border payments API",
-    "website": "https://example.com"
+    "website": "https://www.paylinker.com"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "location": "USA",
     "business_model": "B2B SaaS",
     "description": "AI automation for logistics",
-    "website": "https://example.com"
+    "website": "https://www.automind.ai"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Inventory management platform",
-    "website": "https://example.com"
+    "website": "https://retailsync.co.za"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Enterprise AI analytics engine",
-    "website": "https://example.com"
+    "website": "https://data-forge.net/en"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "location": "India",
     "business_model": "B2B",
     "description": "Hospital workflow automation",
-    "website": "https://example.com"
+    "website": "https://www.medcore.co.in"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "AI retail demand forecasting",
-    "website": "https://example.com"
+    "website": "https://www.shoplytics.us"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "location": "India",
     "business_model": "B2B",
     "description": "Smart energy monitoring",
-    "website": "https://example.com"
+    "website": "https://greenvolt.com"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Contract automation tool",
-    "website": "https://example.com"
+    "website": "https://www.legalgrid.co.uk"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "AI fraud detection engine",
-    "website": "https://example.com"
+    "website": "https://deepsignal.tech"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "location": "India",
     "business_model": "B2B",
     "description": "Insurance risk modeling platform",
-    "website": "https://example.com"
+    "website": "https://insurnova.it/home"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "location": "India",
     "business_model": "B2B",
     "description": "AI-driven crop analytics",
-    "website": "https://example.com"
+    "website": "https://www.farmiq.co.nz"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Cloud security automation",
-    "website": "https://example.com"
+    "website": "https://www.keysight.com/in/en/products/network-visibility/network-packet-brokers/securestack-software-suite.html"
   },
   {
     "id": 20,
@@ -197,6 +197,6 @@
     "location": "India",
     "business_model": "B2B SaaS",
     "description": "Operational AI copilots",
-    "website": "https://example.com"
+    "website": "https://smart-ops.co.uk"
   }
 ]

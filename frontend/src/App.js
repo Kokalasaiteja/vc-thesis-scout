@@ -32,7 +32,7 @@ function App() {
   };
 
   const saveCompany = (company) => {
-    const exists = saved.find(c => c.website === company.website);
+    const exists = saved.find(c => c.id === company.id);
     if (exists) {
       alert("Duplicate detected!");
       return;
