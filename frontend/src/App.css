@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f4f6fb, #e9edf5);
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.app-header h1 {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.thesis-section {
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.thesis-section:hover {
+  box-shadow: 0 14px 30px rgba(0,0,0,0.08);
+}
+
+.companies-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.saved-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}

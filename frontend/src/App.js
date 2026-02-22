@@ -4,6 +4,7 @@ import ThesisForm from "./components/ThesisForm";
 import CompanyCard from "./components/CompanyCard";
 import SavedList from "./components/SavedList";
 import { calculateScore } from "./utils/scoring";
+import "./App.css";
 
 const API_URL = "https://vc-thesis-scout.onrender.com";
 
@@ -28,7 +29,6 @@ function App() {
 
   const saveSearch = () => {
     localStorage.setItem("savedSearch", JSON.stringify(thesis));
-    alert("Search Saved");
   };
 
   const saveCompany = (company) => {
@@ -41,32 +41,57 @@ function App() {
   };
 
   const enrich = async (company) => {
-    const res = await axios.post(`${API_URL}/enrich`, {
-      website: company.website
-    });
-    alert(res.data.summary);
+    try {
+      const res = await axios.post(`${API_URL}/enrich`, {
+        website: company.website
+      });
+      alert(res.data.summary);
+    } catch (err) {
+      alert("Enrichment failed.");
+    }
   };
 
   return (
-    <div style={{padding: 20}}>
-      <h1>VC Thesis Scout</h1>
+    <div className="app-wrapper">
+      <div className="app-container">
 
-      <ThesisForm thesis={thesis} setThesis={setThesis} saveSearch={saveSearch} />
+        <header className="app-header">
+          <h1>VC Thesis Scout</h1>
+          <p className="subtitle">
+            Thesis-driven startup discovery for venture capital firms
+          </p>
+        </header>
 
-      {companies.map(company => {
-        const scoreData = calculateScore(company, thesis);
-        return (
-          <CompanyCard
-            key={company.id}
-            company={company}
-            scoreData={scoreData}
-            saveCompany={saveCompany}
-            enrich={enrich}
+        <section className="thesis-section">
+          <ThesisForm
+            thesis={thesis}
+            setThesis={setThesis}
+            saveSearch={saveSearch}
           />
-        );
-      })}
+        </section>
 
-      <SavedList saved={saved} />
+        <section className="companies-section">
+          {companies.map(company => {
+            const scoreData = calculateScore(company, thesis);
+            return (
+              <CompanyCard
+                key={company.id}
+                company={company}
+                scoreData={scoreData}
+                saveCompany={saveCompany}
+                enrich={enrich}
+              />
+            );
+          })}
+        </section>
+
+        {saved.length > 0 && (
+          <section className="saved-section">
+            <SavedList saved={saved} />
+          </section>
+        )}
+
+      </div>
     </div>
   );
 }
