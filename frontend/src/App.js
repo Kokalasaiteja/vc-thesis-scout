@@ -5,7 +5,7 @@ import CompanyCard from "./components/CompanyCard";
 import SavedList from "./components/SavedList";
 import { calculateScore } from "./utils/scoring";
 
-const API_URL = "https://your-render-url.onrender.com";
+const API_URL = "https://vc-thesis-scout.onrender.com/";
 
 function App() {
   const [companies, setCompanies] = useState([]);
