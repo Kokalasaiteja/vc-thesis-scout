@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "NeuroStack AI",
+    "sector": "AI",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "AI infrastructure for enterprise automation",
+    "website": "https://example.com"
+  },
+  {
+    "id": 2,
+    "name": "FinPulse",
+    "sector": "FinTech",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B",
+    "description": "Digital lending analytics platform",
+    "website": "https://example.com"
+  },
+  {
+    "id": 3,
+    "name": "HealthOrbit",
+    "sector": "HealthTech",
+    "stage": "Seed",
+    "location": "USA",
+    "business_model": "B2C",
+    "description": "Remote patient monitoring platform",
+    "website": "https://example.com"
+  },
+  {
+    "id": 4,
+    "name": "CloudNexus",
+    "sector": "SaaS",
+    "stage": "Series A",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Cloud cost optimization tool",
+    "website": "https://example.com"
+  },
+  {
+    "id": 5,
+    "name": "VisionForge",
+    "sector": "AI",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Computer vision tools for retail",
+    "website": "https://example.com"
+  },
+  {
+    "id": 6,
+    "name": "EduSpark",
+    "sector": "EdTech",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2C",
+    "description": "Gamified learning app",
+    "website": "https://example.com"
+  },
+  {
+    "id": 7,
+    "name": "AgroNext",
+    "sector": "AgriTech",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B",
+    "description": "Precision farming analytics",
+    "website": "https://example.com"
+  },
+  {
+    "id": 8,
+    "name": "PayLinker",
+    "sector": "FinTech",
+    "stage": "Seed",
+    "location": "Singapore",
+    "business_model": "B2B",
+    "description": "Cross-border payments API",
+    "website": "https://example.com"
+  },
+  {
+    "id": 9,
+    "name": "AutoMind",
+    "sector": "AI",
+    "stage": "Seed",
+    "location": "USA",
+    "business_model": "B2B SaaS",
+    "description": "AI automation for logistics",
+    "website": "https://example.com"
+  },
+  {
+    "id": 10,
+    "name": "RetailSync",
+    "sector": "SaaS",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Inventory management platform",
+    "website": "https://example.com"
+  },
+  {
+    "id": 11,
+    "name": "DataForge",
+    "sector": "AI",
+    "stage": "Series A",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Enterprise AI analytics engine",
+    "website": "https://example.com"
+  },
+  {
+    "id": 12,
+    "name": "MedCore",
+    "sector": "HealthTech",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B",
+    "description": "Hospital workflow automation",
+    "website": "https://example.com"
+  },
+  {
+    "id": 13,
+    "name": "Shoplytics",
+    "sector": "AI",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "AI retail demand forecasting",
+    "website": "https://example.com"
+  },
+  {
+    "id": 14,
+    "name": "GreenVolt",
+    "sector": "ClimateTech",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B",
+    "description": "Smart energy monitoring",
+    "website": "https://example.com"
+  },
+  {
+    "id": 15,
+    "name": "LegalGrid",
+    "sector": "LegalTech",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Contract automation tool",
+    "website": "https://example.com"
+  },
+  {
+    "id": 16,
+    "name": "DeepSignal",
+    "sector": "AI",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "AI fraud detection engine",
+    "website": "https://example.com"
+  },
+  {
+    "id": 17,
+    "name": "InsurNova",
+    "sector": "FinTech",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2B",
+    "description": "Insurance risk modeling platform",
+    "website": "https://example.com"
+  },
+  {
+    "id": 18,
+    "name": "FarmIQ",
+    "sector": "AgriTech",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2B",
+    "description": "AI-driven crop analytics",
+    "website": "https://example.com"
+  },
+  {
+    "id": 19,
+    "name": "SecureStack",
+    "sector": "Cybersecurity",
+    "stage": "Pre-Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Cloud security automation",
+    "website": "https://example.com"
+  },
+  {
+    "id": 20,
+    "name": "SmartOps",
+    "sector": "AI",
+    "stage": "Seed",
+    "location": "India",
+    "business_model": "B2B SaaS",
+    "description": "Operational AI copilots",
+    "website": "https://example.com"
+  }
+]
